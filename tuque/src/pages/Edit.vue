@@ -3,6 +3,7 @@
         <div class="title">
             <h1>This is Admin/Edit/{{$route.params.id}}</h1>
             2
+            fix
             3
             4
             5
