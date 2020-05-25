@@ -6,6 +6,8 @@
             fix
             myff
             new
+            cat .gitignore
+            git remote -v
         </div>
     </div>
 </template>
