@@ -8,6 +8,9 @@
                             <router-link to="/admin">View Products</router-link>
                         </li>
                         <li>
+                            <router-link to="/admin/new">View New</router-link>
+                        </li>
+                        <li>
                             <router-link :to="{name: 'Edit',params: {id: 456123}}">View Edit</router-link>
                         </li>
                     </ul>

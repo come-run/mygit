@@ -6,6 +6,7 @@ import Admin from '@/pages/Admin'
 import Car from '@/pages/Car'
 import Products from '@/pages/Create'
 import Edit from '@/pages/Edit'
+import New from '@/pages/New'
 
 Vue.use(Router)
 
@@ -30,6 +31,11 @@ export default new Router({
           path: 'edit/:id',
           name: 'Edit',
           component: Edit
+        },
+        {
+          path: 'new',
+          name: 'New',
+          component: New
         }
       ]
     },
